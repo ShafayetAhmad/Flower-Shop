@@ -20,9 +20,35 @@ body {
   font-weight: 400;
 }
 
-.insta-and-subscribe {
-  margin-left: 240px;
-  margin-right: 240px;
+/* Our featured section  */
+
+.our-featured {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.featured-flower {
+    margin-top: 200px;
+}
+
+.our-featured li {
+    list-style: none;
+}
+
+.featured-img {
+  border-radius: 180px 180px 0px 0px;
+}
+
+.feature-caption {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
 }
 
 /* Header Section Styles  */
@@ -76,7 +102,7 @@ body {
 }
 
 .shop-btn {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 /* hot-deal section  */
@@ -130,12 +156,15 @@ body {
 /* Subscribe Section Styles  */
 
 .subscribe-section {
-  align-items: center;
-  text-align: center;
   margin-bottom: 140px;
   background-image: url(../images/Rectangle\ 9.png);
-  background-size: auto;
+  align-items: center;
+  justify-content: center;
+  background-size: 100%;
   background-repeat: no-repeat;
+  width: 1400px;
+  margin-left: 24%;
+  margin-right: 24%;
 }
 
 .latest-deal-header {
@@ -144,6 +173,7 @@ body {
 
 #subscribe-form {
   border-radius: 8px;
+  border: none;
   background-color: #fff;
   width: 70%;
 }
@@ -171,7 +201,6 @@ body {
   line-height: normal;
   text-align: center;
 }
-
 
 .footer-title-shop {
   color: white;
