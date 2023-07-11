@@ -20,6 +20,11 @@ body {
   font-weight: 400;
 }
 
+.insta-and-subscribe {
+  margin-left: 240px;
+  margin-right: 240px;
+}
+
 /* Header Section Styles  */
 
 .header {
@@ -45,6 +50,8 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  max-width: 600px;
+  margin: 35px 0px;
 }
 
 .banner-flower {
@@ -68,6 +75,10 @@ body {
   font-weight: 700;
 }
 
+.shop-btn {
+    margin-bottom: 50px;
+}
+
 /* hot-deal section  */
 
 .hot-deal {
@@ -76,7 +87,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px 25% 100px 25%;
+  margin: 150px 0;
+  padding: 100px 0;
 }
 
 .hot-deal-text {
@@ -101,13 +113,82 @@ body {
   line-height: 30px;
 }
 
-
 /* Instagram Section  */
 
-.instagram-photo-grid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    margin: 50px 240px 0px 240px;
+.instagram-photo-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 50px 240px 130px 240px;
+}
+
+.instagram-photo-grid li {
+  list-style: none;
+}
+
+/* Subscribe Section Styles  */
+
+.subscribe-section {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 140px;
+  background-image: url(../images/Rectangle\ 9.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.latest-deal-header {
+  padding: 130px 0px 0px 0px;
+}
+
+#subscribe-form {
+  border-radius: 8px;
+  background-color: #fff;
+  width: 70%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 130px;
+  margin-bottom: 150px;
+}
+
+/* Footer-section  */
+
+.footer-section {
+  background-color: #111010;
+  padding: 100px 0px;
+}
+
+.footer-title-text {
+  color: #e55473;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+
+
+.footer-title-shop {
+  color: white;
+}
+
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
 }
